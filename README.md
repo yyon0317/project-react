@@ -111,6 +111,11 @@ npm run sass
 조건문(Conditionals) : @if, @else if, @else와 같은 조건문을 사용하여 특정 조건에 따라 다른 스타일 규칙을 적용할 수 있습니다.
 반복문(Loops) : @for, @each, @while과 같은 반복문을 사용하여 스타일 규칙을 반복해서 생성할 수 있습니다.
 
+
+-vscode 확장자
+    : react code snippets
+    -rsc입력 후 tab 하면 다음과 같은 component snippet 자동완성(클래스형 comp는 rcc + tab)
+
 ---------------------------------------------------------------------------------------------
 
 
