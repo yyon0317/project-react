@@ -1,7 +1,7 @@
 import React from "react";
 
 import about from "../assets/img/about.jpg";
-
+//import 이미지 처리
 const introText = {
     title: "port developer",
     desc: ["talent is", "found at the end of the", "effort"]

@@ -112,6 +112,12 @@ npm run sass
 반복문(Loops) : @for, @each, @while과 같은 반복문을 사용하여 스타일 규칙을 반복해서 생성할 수 있습니다.
 
 
+react
+map(현재 요소(객체)입니다(:nav),현재 요소의 인덱스입니다(:key))
+
+
+
+
 -vscode 확장자
     : react code snippets
     -rsc입력 후 tab 하면 다음과 같은 component snippet 자동완성(클래스형 comp는 rcc + tab)
