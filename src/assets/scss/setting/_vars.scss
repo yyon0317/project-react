@@ -1,0 +1,52 @@
+:root {
+    --mainEng-font: "Montserrat";
+    --mainKor-font: "nanumSquareNeo";
+  
+    --mainBg-color: #f3ede8;
+    --subBg100: #cdc0b1;
+    --subBg200: #afa395;
+    --subBg300: #81887c;
+    --subBg400: #afa7a2;
+    --subBg500: #a6afa2;
+  
+    --white: #fff;
+    --black: #000;
+    --black100: #2b2b2b;
+    --black200: #434343;
+    --black300: #686868;
+    --black400: #e0e0e0;
+  
+    /* 기본 폰트 설정 */
+    font-family: var(--mainEng-font), var(--mainKor-font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    /* 아이폰 가로 모드에서 글씨 확대 금지 */
+    -webkit-text-size-adjust: 100%;
+}
+
+/*반응형 화면 크기*/
+$mobile: 375px;
+$tablet: 720px;
+$desktop: 1024px;
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+/* 태블릿용 미디어 쿼리 */
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+/* 데스크톱용 미디어 쿼리 */
+@mixin desktop {
+  @media (min-width: $tablet) {
+    @content;
+  }
+}
