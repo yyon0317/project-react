@@ -59,7 +59,9 @@ cd project-react
 npm install
 npm start
 
-
+git add .
+git commit -m ""
+git push -u origin main
 
 
 
