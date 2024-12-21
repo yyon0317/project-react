@@ -56,6 +56,7 @@ npx create-react-app project-react
 npx는 Node.js와 함께 제공되는 패키지 실행  create-react-app이라는 패키지를 다운로드 project-react 폴더 생성
 
 cd project-react
+npm install
 npm start
 
 
