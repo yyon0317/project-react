@@ -1,0 +1,26 @@
+
+#sns {
+    width: 90px; 
+    height: 80vh; 
+    padding-bottom: 5vh; 
+    z-index: 1; 
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed; left: 2%; top: 120px;
+    border-top: 0;
+    animation: sns 1.5s ease-in-out forwards;
+    animation-delay: 2s;
+    border: 1px solid #2e2e2e;
+    @include tablet{display: none;}
+    .list li {width: 100%; margin-bottom: 3vh}
+    .list li a {font-size: 25px;}
+    .list li:nth-child(3) a {font-size: 22px}
+    .snsicon.active{color: #000;}
+}
+
+@keyframes sns {
+    0% {transform: translateY(100%); opacity: 0}
+    100% {transform: translateY(0%); opacity: 1}
+}
