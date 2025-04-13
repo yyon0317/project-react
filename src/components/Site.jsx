@@ -3,6 +3,7 @@ import port01 from "../assets/img/port01.jpg";
 import port02 from "../assets/img/port02.jpg";
 import port03 from "../assets/img/port03.jpg";
 import port04 from "../assets/img/port04.jpg";
+import port05 from "../assets/img/port05.jpg";
 
 const Site = () => {
   const siteRef = useRef(null);
@@ -75,6 +76,14 @@ const Site = () => {
             desc: "gulp를 사용해서 더현대 벤치마킹하여 제작한 반응형 웹사이트 제작하였습니다.",
             link: "https://hyundaistore-portfolio.netlify.app/front/main/main",
           },
+          {
+            num: "05",
+            img: port05,
+            title: "THE HYUNDAI CARD Web Site",
+            skill:["REACT"],
+            desc: "REACT를 사용해서 PC웹사이트를 제작하였습니다.(반응형작업예정)",
+            link: "https://hyundaicard-clone.netlify.app/",
+          },
         ].map((project, index) => (
           <article
             className="project"
@@ -94,6 +103,7 @@ const Site = () => {
                     <span>{project.skill[1]} </span>
                     <span>{project.skill[2]} </span>
                     <span>{project.skill[3]} </span>
+                    <span>{project.skill[4]} </span>
                   </p>
                   <p>{project.desc}</p>
                 </div>
