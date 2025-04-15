@@ -1,6 +1,6 @@
 # YOON HA YOON PORTFOLIO
 
-[react.js](https://github.com/webstoryboy/port2023-react)를 이용하여 사이트를 제작합니다. 
+[react.js]를 이용하여 사이트를 제작합니다. 
 
 
 ## 완성작 보기 
