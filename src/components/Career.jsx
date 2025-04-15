@@ -49,7 +49,7 @@ const Career = () => {
                 </div>
                 <div className="text">
                     유컴패니온그룹<br></br>
-                    2023.01.16-2025.02.10<br></br>
+                    2023.01.16-2025.02.11<br></br>
                     퍼블리셔 퍼블리싱팀 사원/팀원
                 </div>
             </div>
@@ -57,7 +57,7 @@ const Career = () => {
             <div className="con2">
                 <div className="title">PUBLISHE</div>
                 <div className="text">
-                <span>주요 업무 :</span> SKB 서비스 운영 및 고도화<br></br>
+                <span>주요 업무 :</span> SKB 서비스 운영 및 고도화 리뉴얼<br></br>
                     <span>사용 Tool :</span> <br></br>
                     - 형상 관리 및 개발 환경: Git, GitHub, Bitbucket, Eclipse, VS Code<br></br>
                     - 퍼블리싱 기술: HTML5, CSS3, SASS(SCSS), JavaScript(ES6+), jQuery<br></br>

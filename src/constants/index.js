@@ -35,7 +35,7 @@ export const introText = {
 
 export const keyword = {
     name:["YOON HA YOON"],
-    desc: ["GRAPHIC","DESIGN","UI/UX", "WEB","SITE","ANIMATION","HTML","CSS(SASS)","PUBLISHING","JAVASCRIPT","GSAP","NODE","NPM","GULP","VITE","REACT"],
+    desc: ["GRAPHIC","DESIGN","UI/UX", "WEB","SITE","ANIMATION","PUBLISHING","HTML","CSS(SASS)","JQUERY","JAVASCRIPT","GSAP","Node.js", "Gulp", "Vite","REACT","GIT"],
     title:['"안녕하세요, 끊임없이 도전하고 경험으로 성장하는 윤하윤입니다."'],
     text:["처음 웹에 관심을 가지게 된 계기는, 제 손끝에서 하나씩 완성되어 가는 웹사이트를 보며 느낀 흥미와 성취감이었습니다. 이 열정을 바탕으로 웹 퍼블리싱 실무자 양성과정을 수료하며 HTML, CSS, JavaScript 등 웹에 대한 기초 지식을 쌓았습니다.",
         "이후 실무 프로젝트에 직접 참여하면서 효율적인 마크업과 스타일링, 브라우저 호환성 대응, 반응형 웹 구현 등 퍼블리셔로서의 실무 감각을 익혔고, 다양한 상황 속에서 협업하는 능력도 키워나갔습니다.",

@@ -104,7 +104,7 @@ const Skill = () => {
           </li>
           <li className="skill_wrap">
             <div className="skill_desc">
-              <p className="counter" data-target="60"></p>
+              <p className="counter" data-target="50"></p>
               <em>REACT</em>
             </div>
           </li>
