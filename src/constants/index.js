@@ -30,7 +30,7 @@ export const headerNav = [
 
 export const introText = {
     title: ["Hello!  I'm"," Ha Yoon","I  want to become a", "Developing Web Publisher."],
-    desc: ["안녕하세요. 저의 포트폴리오에 오신 것을 환영합니다.", "퍼블리싱을 학습하며 준비한 제 노력의 작업물을 보실 수 있습니다.", "감사합니다."]
+    desc: ["안녕하세요. 저의 포트폴리오에 오신 것을 환영합니다.", "퍼블리싱 역량을 익히며 쌓아온 작업물들을 소개드립니다.", "감사합니다."]
 }
 
 export const keyword = {

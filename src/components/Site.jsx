@@ -51,6 +51,7 @@ const Site = () => {
             skill:["HTML5","CSS3","JAVA SCRIPT","JQUERY"],
             desc: "태그의 의미와 구조를 이해하고 반응형으로 제작한 사이트로 PC, TABLET. MOBILE 로 구성 되어 있습니다. @keyframes 애니매이션을 활용하고 j-query 이벤트 사용해서 동적인 홈페이지를 구축했습니다.",
             link: "https://dokdo-portfolio.netlify.app/",
+            linkgit: "https://github.com/yyon0317/dokdo-portfolio",
           },
           {
             num: "02",
@@ -59,6 +60,7 @@ const Site = () => {
             skill:["HTML5","CSS3","JAVA SCRIPT","JQUERY"],
             desc: "	디자인시안부터 반응형으로 제작한 사이트로 PC, TABLET. MOBILE 로 구성 되어 있습니다. SASS에서의 @mixin/@include변수를 활용하고 flex&grid로 레이아웃 디자인했습니다.디자인 컨셉은 갤러리 느낌을 주기 위해 모션을 활용한 UI를 구현하기 위해 다양한 Scroll Event을 사용하였습니다.",
             link: "https://cassina-portfolio.netlify.app/",
+            linkgit: "https://github.com/yyon0317/cassina-portfolio",
           },
           {
             num: "03",
@@ -67,6 +69,7 @@ const Site = () => {
             skill:["HTML5","CSS3","SASS","JAVA SCRIPT","JQUERY", "GULP","GSAP"],
             desc: "gulp를 사용해서 더현대 가이드(BUI)를 제작하였습니다.",
             link: "https://hyundaistore-portfolio.netlify.app/bui/intro/index.html",
+            linkgit: "https://github.com/yyon0317/hyundaistore",
           },
           {
             num: "04",
@@ -75,6 +78,7 @@ const Site = () => {
             skill:["HTML5","CSS3","SASS","JAVA SCRIPT","JQUERY", "GULP","GSAP"],
             desc: "gulp를 사용해서 더현대 벤치마킹하여 제작한 반응형 웹사이트 제작하였습니다.",
             link: "https://hyundaistore-portfolio.netlify.app/front/main/main",
+            linkgit: "https://github.com/yyon0317/hyundaistore",
           },
           {
             num: "05",
@@ -83,6 +87,7 @@ const Site = () => {
             skill:["REACT"],
             desc: "REACT를 사용해서 PC웹사이트를 제작하였습니다.(반응형작업예정)",
             link: "https://hyundaicard-clone.netlify.app/",
+            linkgit: "https://github.com/yyon0317/hyundaicard-clone",
           },
         ].map((project, index) => (
           <article
@@ -107,8 +112,11 @@ const Site = () => {
                   </p>
                   <p>{project.desc}</p>
                 </div>
-                <a href={project.link} className="more">
+                <a href={project.link} target="blank" className="more">
                   VIEW SITE
+                </a>
+                <a href={project.linkgit} target="blank" className="more">
+                  VIEW GITHUB
                 </a>
               </div>
             </div>

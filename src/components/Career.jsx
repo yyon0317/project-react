@@ -59,25 +59,25 @@ const Career = () => {
                 <div className="text">
                 <span>주요 업무 :</span> SKB 서비스 운영 및 고도화 리뉴얼<br></br>
                     <span>사용 Tool :</span> <br></br>
-                    - 형상 관리 및 개발 환경: Git, GitHub, Bitbucket, Eclipse, VS Code<br></br>
+                    - 형상 관리 및 개발 환경: Git, GitHub, Bitbucket, Eclipse, VS Code, SVN<br></br>
                     - 퍼블리싱 기술: HTML5, CSS3, SASS(SCSS), JavaScript(ES6+), jQuery<br></br>
                     - 빌드 및 자동화 도구: Node.js, Gulp, Vite<br></br>
-                    - 협업 및 디자인 도구: Figma, Zeplin, Adobe XD<br></br>
+                    - 협업 및 디자인 도구: Figma, Adobe XD<br></br>
 
                     <span>상세 내용 :</span> <br></br>
                     1. SKB 서비스 운영 및 UI/UX서비스 리뉴얼<br></br>
-                    - SK브로드밴드 주요 서비스(B tv, B box) 웹사이트 운영 및 유지보수<br></br>
-                    - 반응형 웹 및 웹 접근성(WCAG 2.1) 준수하여 UI/UX 개선<br></br>
+                    - SK브로드밴드 웹사이트 운영 및 유지보수<br></br>
+                    - 웹 접근성 준수하여 UI/UX 개선<br></br>
+                    - 컴포넌트 구조와 모듈화한 BUI 가이드를 제작하여 유지보수 용이한 퍼블리싱 환경리뉴얼 작업<br></br>
                     - SCSS(SASS) 및 CSS 모듈화를 통한 유지보수 효율성 향상<br></br>
-                    - Vite 및 Gulp를 활용한 빌드 자동화 및 최적화<br></br>
-                    - 크로스 브라우징 테스트(Chrome, Edge, Firefox, Safari 등) 및 디바이스별 최적화<br></br>
-                    - Eclipse 기반의 개발 환경에서 백엔드 연동 및 데이터 바인딩 최적화<br></br>
-                    - GitHub, Bitbucket을 활용한 형상 관리 및 코드 리뷰 진행<br></br>
+                    - Gulp를 활용한 빌드 자동화 및 최적화<br></br>
+                    - 크로스 브라우징 테스트 및 디바이스별 최적화<br></br>
+                    - GitHub, Bitbucket을 활용한 형상 관리<br></br>
 
                     2. 디자이너 및 개발자와의 협업<br></br>
-                    - 디자이너(Figma, Zeplin, Adobe XD)와의 협업을 통해 디자인 가이드에 맞춘 UI 구현<br></br>
-                    - 디자인 시스템을 적용하여 일관된 UI 컴포넌트 구축 및 유지보수<br></br>
-                    - 반응형 웹 및 웹 접근성 최적화를 위해 디자이너와 협업하여 UI 개선<br></br>
+                    - 디자이너(Figma, Adobe XD)와의 협업을 통해 디자인 가이드에 맞춘 UI 구현<br></br>
+                    - 디자인 시스템을 적용하여 일관된 UI 컴포넌트 유지보수<br></br>
+                    - 웹 접근성 최적화를 위해 디자이너와 협업하여 UI 개선<br></br>
                 </div>
             </div>
           </div>
